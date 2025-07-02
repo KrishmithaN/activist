@@ -1,0 +1,154 @@
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f49999;
+}
+li {
+  float: right;
+}
+
+li a:hover {
+  background-color: #db7b7b;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+h1 {
+    font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+#gowiththeflow {
+  border: 3px solid #e68989;
+  margin: 0;
+}
+#periodcomic {
+  border: 3px solid #
+  margin:0;
+}
+#comic {
+  border: 3px solid #e688989;
+  margin: 0;
+}
+.column {
+  float: left;
+  width: 40%;
+  padding: 10px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+ 
+}
+#googleform {
+  text-align:center;
+
+}
+iframe {
+   display: block;
+   margin: 0 auto;}
+
+.button {
+  background-color: #white; 
+  border: 2px solid ##e28d9a;
+  border-radius: 8px;
+  color: black;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+.button:hover {
+  background-color: #e8a1ac;
+  color: black;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #e8bfbff1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: black;}
+
